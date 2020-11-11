@@ -1,0 +1,55 @@
+Host master-1
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/p17m/git/github/cka/kubernetes-the-hard-way/vagrant/.vagrant/machines/master-1/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host master-2
+  HostName 127.0.0.1
+  User vagrant
+  Port 2200
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/p17m/git/github/cka/kubernetes-the-hard-way/vagrant/.vagrant/machines/master-2/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host loadbalancer
+  HostName 127.0.0.1
+  User vagrant
+  Port 2201
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/p17m/git/github/cka/kubernetes-the-hard-way/vagrant/.vagrant/machines/loadbalancer/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host worker-1
+  HostName 127.0.0.1
+  User vagrant
+  Port 2202
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/p17m/git/github/cka/kubernetes-the-hard-way/vagrant/.vagrant/machines/worker-1/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host worker-2
+  HostName 127.0.0.1
+  User vagrant
+  Port 2203
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /Users/p17m/git/github/cka/kubernetes-the-hard-way/vagrant/.vagrant/machines/worker-2/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
